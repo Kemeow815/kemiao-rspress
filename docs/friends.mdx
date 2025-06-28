@@ -1,50 +1,64 @@
 import Giscus from '../src/components/Giscus.tsx';
 
 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
- 
-  <div className="flex items-start p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
-    <img 
-      src="https://www.zhilu.cyou/api/avatar.png" 
-      alt="纸鹿摸鱼处" 
-      className="w-16 h-16 rounded-full mr-4 border-2 border-gray-100"
-    />
-    <div>
-      <a href="https://blog.zhilu.cyou/" className="text-lg font-semibold text-blue-600 hover:underline">
-        纸鹿摸鱼处
-      </a>
-      <p className="mt-1 text-gray-600">纸鹿至麓不知路，支炉制露不止漉</p>
-    </div>
+  {/* 友链项1 */}
+  <div className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md hover:shadow-lg transition-shadow">
+    <a href="https://blog.zhheo.com/" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4">
+      <img 
+        src="https://img.zhheo.com/i/67d8fa75943e4.webp" 
+        alt="张洪Heo" 
+        className="w-16 h-16 rounded-full object-cover border-2 border-blue-100"
+      />
+      <div>
+        <h3 className="text-xl font-bold text-gray-800 dark:text-white hover:text-blue-600 transition-colors">
+          张洪Heo
+        </h3>
+        <p className="text-gray-600 dark:text-gray-300 mt-2 text-sm">
+          分享设计与科技生活
+        </p>
+      </div>
+    </a>
   </div>
 
- 
-  <div className="flex items-start p-4 bg-white rounded-lg shadow hover:shadow-md transition-shadow">
-    <img 
-      src="https://example.com/avatar2.png" 
-      alt="设计笔记" 
-      className="w-16 h-16 rounded-full mr-4 border-2 border-gray-100"
-    />
-    <div>
-      <a href="https://design-diary.example.net" className="text-lg font-semibold text-blue-600 hover:underline">
-        设计笔记
-      </a>
-      <p className="mt-1 text-gray-600">分享UI/UX设计心得与案例解析</p>
-    </div>
+  {/* 友链项2 */}
+  <div className="bg-white dark:bg-gray-800 rounded-xl p-5 shadow-md hover:shadow-lg transition-shadow">
+    <a href="https://blog.zhilu.cyou/" target="_blank" rel="noopener noreferrer" className="flex items-start gap-4">
+      <img 
+        src="https://www.zhilu.cyou/api/avatar.png" 
+        alt="纸鹿摸鱼处" 
+        className="w-16 h-16 rounded-full object-cover border-2 border-purple-100"
+      />
+      <div>
+        <h3 className="text-xl font-bold text-gray-800 dark:text-white hover:text-purple-600 transition-colors">
+          纸鹿摸鱼处
+        </h3>
+        <p className="text-gray-600 dark:text-gray-300 mt-2 text-sm">
+          纸鹿至麓不知路，支炉制露不止漉
+        </p>
+      </div>
+    </a>
   </div>
+
 </div>
 
-### 友链申请原则
-- 🕒 **活跃要求**：半年内保持可访问状态，无失效链接  
-- ✍️ **内容更新**：需保持周期性内容更新（至少每季度1篇）  
-- ✅ **合规运营**：网站内容合法合规，不涉及违规信息  
+{/* 申请原则 */}
+## 📝 友链申请原则
+<ul className="space-y-2 mt-6 pl-5 list-disc text-gray-700 dark:text-gray-300">
+  <li><strong>持续活跃</strong> - 网站半年内保持可访问状态，无失效链接</li>
+  <li><strong>内容更新</strong> - 能周期性更新原创文章（至少每月1篇）</li>
+  <li><strong>合法合规</strong> - 网站内容符合法律法规，不涉及违规操作</li>
+  <li><strong>双向链接</strong> - 需先在贵站添加本站友链（信息见下方）</li>
+</ul>
 
-### 我的友链信息
+{/* 我的友链信息 */}
+## 🪪 我的友链信息
 ```json
 {
-  "name": "数字漫游者",
-  "avatar": "https://my-website.com/avatar.png",
-  "url": "https://digital-nomad.blog",
-  "description": "探索Web开发与分布式系统技术"
+  "name": "喵落阁",
+  "avatar": "https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256",
+  "url": "https://note.kemeow.top",
+  "description": "愿你看清一切真相后，依旧热爱你的家人和朋友。"
 }
 ```
 
-<Giscus />
+<Giscus /> 

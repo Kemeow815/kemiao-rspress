@@ -4,10 +4,10 @@ import { defineConfig } from 'rspress/config';
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: '喵落阁',
-  icon: '/rspress-icon.png',
+  icon: '/kemiao.png',
   logo: {
-    light: '/rspress-light-logo.png',
-    dark: '/rspress-dark-logo.png',
+    light: '/kemiao.png',
+    dark: '/kemiao.png',
   },
   themeConfig: {
     socialLinks: [

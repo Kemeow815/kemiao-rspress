@@ -16,7 +16,7 @@ hero:
       text: 踩坑记录
       link: /guide/
   image:
-    src: /rspress-icon.png
+    src: /kemiao.png
     alt: Logo
 features:
   - title: 生活记录
