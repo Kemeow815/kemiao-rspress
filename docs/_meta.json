@@ -1,0 +1,27 @@
+[
+  {
+    "text": "生活记录",
+    "link": "/diary/",
+    "activeMatch": "/diary/"
+  },
+  {
+    "text": "资源分享",
+    "link": "/resources/",
+    "activeMatch": "/resources/"
+  },
+  {
+    "text": "踩坑教程",
+    "link": "/guide/",
+    "activeMatch": "/guide/"
+  },
+  {
+    "text": "友链",
+    "link": "/friends/",
+    "activeMatch": "/friends/"
+  },
+  {
+    "text": "关于",
+    "link": "/about/",
+    "activeMatch": "/about/"
+  }
+]
